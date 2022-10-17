@@ -4,7 +4,7 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.0.2"
-   backend "azurerm"
+   backend "azurerm" {
       resource_group_name  = "privdns_rg"
       storage_account_name = "tfstatefowler"
       container_name       = "tfstate"
