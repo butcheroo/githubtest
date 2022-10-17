@@ -4,7 +4,7 @@ variable "subscription_id" {
 }
 
 variable "resource_group_name" {
-  default = "storage-rg"
+  default = "zzzstorage-rg"
 }
 
 variable "resource_group_location" {
