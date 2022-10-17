@@ -23,13 +23,3 @@ resource "azurerm_resource_group" "rg" {
   location = "westus2"
 }
 
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "West Europe"
-}
-
-resource "azurerm_network_security_group" "example" {
-  name                = "example-security-group"
-  location            = "UK South"
-  resource_group_name = "dssdsdsd"
-}
