@@ -7,7 +7,7 @@ terraform {
     }
   }
    backend "azurerm" {
-      resource_group_name  = "privdns_rg"
+      resource_group_name  = "privdns-rg"
       storage_account_name = "tfstatetfowler"
       container_name       = "tfstate"
       key                  = "8y0xv3IQb/rgtYshdz0HVC5zM5zttXRDKUS1sDKbFjzHsfHO0l+gjo82Mz2RSv7Cm7LoGIMtnnYd+ASt8WcSDQ=="
