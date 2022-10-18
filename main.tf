@@ -7,12 +7,12 @@ terraform {
     }
   }
    backend "azurerm" {
-      resource_group_name  = "privdns-rg"
-      storage_account_name = "tfstatetfowler"
-      container_name       = "tfstate"
+      resource_group_name  = "tfstatetf"
+      storage_account_name = "stateterraformtf"
+      container_name       = "state"
       key                  = "dev.terraform.tfstate"     
      
-      access_key                  = "8y0xv3IQb/rgtYshdz0HVC5zM5zttXRDKUS1sDKbFjzHsfHO0l+gjo82Mz2RSv7Cm7LoGIMtnnYd+ASt8WcSDQ=="
+      access_key                  = "t5x+lVj4ejL4UlsxzWvfnEw1lRybdEF3ey81xZ6hgZGqfvAi3Hd9GRsFwAGRjeH8zXDZG2DQdiRW+AStNGPmhw=="
     }
 
 }
@@ -22,7 +22,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "dsdsdsdsmy"
-  location = "westus2"
+  location = "West Europe"
 }
 
 resource "azurerm_resource_group" "example" {
