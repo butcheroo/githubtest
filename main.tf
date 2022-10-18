@@ -7,10 +7,10 @@ terraform {
     }
   }
    backend "azurerm" {
-      resource_group_name  = "tfstatetf"
+      #resource_group_name  = "tfstatetf"
       storage_account_name = "stateterraformtf"
       container_name       = "state"
-      key                  = "dev.terraform.tfstate"     
+      key                  = "prod.terraform.tfstate"     
      
       access_key                  = "t5x+lVj4ejL4UlsxzWvfnEw1lRybdEF3ey81xZ6hgZGqfvAi3Hd9GRsFwAGRjeH8zXDZG2DQdiRW+AStNGPmhw=="
     }
